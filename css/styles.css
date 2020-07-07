@@ -1,0 +1,242 @@
+/*:root{
+    --main-theme-color:black;
+    --main-theme-header-background-image:url(../img/kente\ cloth.jpg);
+
+}*/
+
+body,
+html {
+    min-height: 100%;
+    width: 100%;
+    background: black;
+    /*overflow: hidden;*/
+    margin-bottom: 110px;
+    padding: 0;
+    clear: both;
+}
+
+#main {
+    background-image: url(../img/blm3.jpg);
+    height: 100%;
+    max-width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.footer {
+    background-image: url(../img/kente\ cloth.jpg);
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    text-shadow: 3px 3px black;
+    height: auto;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    clear: none;
+}
+
+.navbar {
+    /*background-image: linear-gradient(to right,blue,black,gold,green,yellow,grey,pink,white,maroon,red,purple,silver);*/
+    background: url(../img/kente\ cloth.jpg);
+    overflow: hidden;
+    width: 100%;
+    color: white;
+}
+
+.navbar li {
+    color: white;
+}
+
+.navbar li a {
+    color: white;
+    font-size: 22px;
+    text-shadow: 3px 3px black;
+}
+
+.navbar-brand {
+    color: white;
+    font-size: 22px;
+    text-shadow: 3px 3px black;
+}
+
+.navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgb(255,255,255,1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+    color: white;
+}
+
+.navbar-toggler {
+    border-color: "";
+}
+
+#marquee {
+    height: 40vh;
+    max-width: 100%;
+    position: relative;
+    width: 100%;
+}
+
+#name {
+    color: silver;
+    text-align: center;
+    margin: 0;
+    font-size: 40px
+}
+
+#name p {
+    padding: 5px;
+    color: silver;
+}
+
+#rem {}
+
+#rem p {
+    background: black;
+    color: silver;
+    margin: 0;
+    text-align: center;
+    font-size: 18px;
+    position: relative;
+    padding: 20px;
+}
+
+#rem ul {
+    background: rgba(0, 0, 0, 0.5);
+    margin: 0;
+    text-align: center;
+    font-size: 18px;
+    position: relative;
+    padding: 0;
+    height: auto%;
+    width: 100%;
+    list-style-type: none;
+}
+
+#rem li {
+    color: silver;
+}
+
+h1 {
+    background-color: black;
+    color: silver;
+    margin: 0;
+    text-align: center;
+}
+
+h2 {
+    background: black;
+    margin: 0;
+    text-align: center;
+    color: silver;
+}
+
+h3 {
+    background: rgba(0, 0, 0, );
+    margin: 0;
+    color: silver;
+}
+
+#companies {
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+#companies a {
+    color: silver;
+    text-decoration: none;
+    font-size: 20px;
+    display: block;
+}
+
+#history {
+    background: rgba(0, 0, 0, 0.5);
+}
+
+#history p {
+    padding: 7px;
+    background: rgba(0, 0, 0, 0.5);
+}
+
+#history a {
+    color: silver;
+    text-decoration: none;
+}
+
+.dropdown {
+    text-align: center;
+}
+
+.btn {
+    background: black;
+}
+
+.dropdown-menu {
+    background: black;
+    color: silver;
+}
+
+@media (max-width:768px) {
+    body {
+        height: 100%;
+        width: auto;
+    }
+    #name {
+        font-size: 30px;
+    }
+}
+
+
+/*Old Code. Keeping just in case*/
+
+
+/*ul{
+background:black;
+color:silver;
+margin:0;
+text-align:center;
+font-size:18px;
+position:relative;
+padding:0;
+height:auto%;
+width:100%;
+
+}
+
+ul li{
+margin:0;
+color: silver;
+padding:10px;
+
+}*/
+
+
+/*.navbar a{ 
+    text-decoration:none;
+    padding:14px 16px;
+    color:#f2f2f2;
+    text-shadow: 3px 3px black;
+    float: left;
+    display:block;
+    text-align:center;
+    font-size: 30px;
+    
+}
+
+.navbar a:hover{
+color:white;
+background-color:brown;
+}
+
+.navbar a.active{
+    background-color:#4CAF50;
+    color:white;
+}
+
+.navbar .icon{
+    display:none;
+}*/
